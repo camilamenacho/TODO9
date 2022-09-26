@@ -1,0 +1,45 @@
+.header {
+    padding-top: 15px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 70%);
+    background-color: #707070;
+}
+
+.header > h2, p, h1 {
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.header > h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header > h1 {
+    font-size: 36px;
+}
+
+.header > p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btns {
+    display: flex;
+}
+
+.btns > button {
+    margin: 10px;
+    width: 160px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    color: #888888;
+    font-size: 14px;
+}
+
+
